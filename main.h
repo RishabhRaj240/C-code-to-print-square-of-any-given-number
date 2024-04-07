@@ -6,7 +6,7 @@ void square(int* const x);
 int main()
 {
 	int *num = (int *)malloc(sizeof(int));
-	*num = 9;
+	*num = 11;
 
 	square(num);
 	printf("The square of the given number is %d\n", *num);
